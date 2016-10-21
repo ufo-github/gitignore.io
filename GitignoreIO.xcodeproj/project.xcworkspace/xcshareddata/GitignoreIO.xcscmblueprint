@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C4C80941402ACFB8F8DAFC16E089CD6387D9552D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F6E115EB0B87EC2DD820801982E532A21E373093" : 9223372036854775807,
+    "C4C80941402ACFB8F8DAFC16E089CD6387D9552D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5A13C0C6-4332-406D-92FF-C5FA9A288E7F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F6E115EB0B87EC2DD820801982E532A21E373093" : "gitignore.io\/data\/gitignore\/",
+    "C4C80941402ACFB8F8DAFC16E089CD6387D9552D" : "gitignore.io\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GitignoreIO",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GitignoreIO.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:joeblau\/gitignore.io.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4C80941402ACFB8F8DAFC16E089CD6387D9552D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/github\/gitignore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F6E115EB0B87EC2DD820801982E532A21E373093"
+    }
+  ]
+}
