@@ -595,17 +595,15 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
     }
 
     .header ul {
-        margin-left: -15px;
+        margin-left: -8px;
     }
 
     .header h1 + ul {
-        border-left: solid 1px #EEEEEE;
-        margin-left: 15px;
+        margin-left: 8px;
     }
 
     .header li {
         border-left: solid 1px rgba(255, 255, 255, 0.5);
-        border-right: solid 1px #EEEEEE;
     }
 
     .header li:last-child {
@@ -613,7 +611,7 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
     }
 
     .header li a {
-        padding: 0 15px;
+        padding: 0 8px;
     }
 }
 
