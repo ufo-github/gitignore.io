@@ -147,4 +147,3 @@ fastlane/test_output
 Packages/
 GitignoreIO.xcodeproj
 Tests/
-webroot/
