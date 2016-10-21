@@ -1,0 +1,23 @@
+/* 
+  en_us.strings
+  GitignoreIO
+
+  Created by Joseph Blau on 10/20/16.
+
+*/
+
+"command_line_description" = "Learn how to run .gitignore.io from the command line";
+"command_line_title" = "Command Line Docs";
+"description_docs" = "Docs For Generating Your Project .gitignore File with %@ Operating System, IDE, and Programming Language .gitignore templates";
+"description_index" = "Create useful .gitignore files for your project by selecting from %@ Operating System, IDE, and Programming Language .gitignore templates";
+"footer" = "Hosting %@ Operating System, IDE, and Programming Language .gitignore templates";
+"search_download" = "Download File";
+"search_go" = "Generate";
+"search_placeholder" = "Search Operating Systems, IDEs, or Programming Languages";
+"source_code_description" = "GitHub hosted source code for .gitignore.io";
+"source_code_title" = "Source Code";
+"subtitle" = "Create useful .gitignore files for your project";
+"title_docs" = "gitignore.io - Docs For Generating Your Project .gitignore File";
+"title_index" = "gitignore.io - Create Useful .gitignore Files For Your Project";
+"video_description" = "Watch a video to learn how .gitignore.io works";
+"video_title" = "Watch Video Tutorial";
