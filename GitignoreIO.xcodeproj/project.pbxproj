@@ -7,35 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E692794D1DBA320200E8566B /* UIHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692794B1DBA31FE00E8566B /* UIHandlers.swift */; };
-		E692794F1DBA340800E8566B /* TemplateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692794E1DBA340800E8566B /* TemplateModel.swift */; };
-		E69279511DBA413900E8566B /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_data /* data */; };
+		E6ACA2E21DBA7559002CB8BB /* Date+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ACA2E11DBA7559002CB8BB /* Date+ExtensionsTests.swift */; };
+		E6ACA2EA1DBA9AC2002CB8BB /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ACA2E81DBA99C3002CB8BB /* String+Extensions.swift */; };
+		E6E09C7B1DBA700400D3130E /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_data /* data */; };
 		_LinkFileRef_CHTTPParser_via_GitignoreIO /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CHTTPParser" /* CHTTPParser.framework */; };
+		_LinkFileRef_CHTTPParser_via_GitignoreIOTests /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CHTTPParser" /* CHTTPParser.framework */; };
 		_LinkFileRef_CHTTPParser_via_PerfectHTTPServer /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CHTTPParser" /* CHTTPParser.framework */; };
 		_LinkFileRef_COpenSSL_via_CHTTPParser /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
 		_LinkFileRef_COpenSSL_via_GitignoreIO /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
+		_LinkFileRef_COpenSSL_via_GitignoreIOTests /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
 		_LinkFileRef_COpenSSL_via_PerfectHTTP /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
 		_LinkFileRef_COpenSSL_via_PerfectHTTPServer /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
 		_LinkFileRef_COpenSSL_via_PerfectMustache /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
 		_LinkFileRef_COpenSSL_via_PerfectNet /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
+		_LinkFileRef_GitignoreIO_via_GitignoreIOTests /* GitignoreIO in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_GitignoreIO" /* GitignoreIO */; };
 		_LinkFileRef_PerfectHTTPServer_via_GitignoreIO /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTPServer" /* PerfectHTTPServer.framework */; };
+		_LinkFileRef_PerfectHTTPServer_via_GitignoreIOTests /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTPServer" /* PerfectHTTPServer.framework */; };
 		_LinkFileRef_PerfectHTTP_via_CHTTPParser /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTP" /* PerfectHTTP.framework */; };
 		_LinkFileRef_PerfectHTTP_via_GitignoreIO /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTP" /* PerfectHTTP.framework */; };
+		_LinkFileRef_PerfectHTTP_via_GitignoreIOTests /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTP" /* PerfectHTTP.framework */; };
 		_LinkFileRef_PerfectHTTP_via_PerfectHTTPServer /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTP" /* PerfectHTTP.framework */; };
 		_LinkFileRef_PerfectHTTP_via_PerfectMustache /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTP" /* PerfectHTTP.framework */; };
 		_LinkFileRef_PerfectLib_via_CHTTPParser /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
 		_LinkFileRef_PerfectLib_via_GitignoreIO /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
+		_LinkFileRef_PerfectLib_via_GitignoreIOTests /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
 		_LinkFileRef_PerfectLib_via_PerfectHTTP /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
 		_LinkFileRef_PerfectLib_via_PerfectHTTPServer /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
 		_LinkFileRef_PerfectLib_via_PerfectMustache /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
 		_LinkFileRef_PerfectMustache_via_GitignoreIO /* PerfectMustache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectMustache" /* PerfectMustache.framework */; };
+		_LinkFileRef_PerfectMustache_via_GitignoreIOTests /* PerfectMustache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectMustache" /* PerfectMustache.framework */; };
 		_LinkFileRef_PerfectNet_via_CHTTPParser /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
 		_LinkFileRef_PerfectNet_via_GitignoreIO /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
+		_LinkFileRef_PerfectNet_via_GitignoreIOTests /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
 		_LinkFileRef_PerfectNet_via_PerfectHTTP /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
 		_LinkFileRef_PerfectNet_via_PerfectHTTPServer /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
 		_LinkFileRef_PerfectNet_via_PerfectMustache /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
 		_LinkFileRef_PerfectThread_via_CHTTPParser /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
 		_LinkFileRef_PerfectThread_via_GitignoreIO /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
+		_LinkFileRef_PerfectThread_via_GitignoreIOTests /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
 		_LinkFileRef_PerfectThread_via_PerfectHTTP /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
 		_LinkFileRef_PerfectThread_via_PerfectHTTPServer /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
 		_LinkFileRef_PerfectThread_via_PerfectMustache /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
@@ -761,84 +770,95 @@
 		__src_cc_ref_Sources/DocsHandlers.swift /* DocsHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/DocsHandlers.swift /* DocsHandlers.swift */; };
 		__src_cc_ref_Sources/IndexHandlers.swift /* IndexHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/IndexHandlers.swift /* IndexHandlers.swift */; };
 		__src_cc_ref_Sources/TemplateCreationController.swift /* TemplateCreationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/TemplateCreationController.swift /* TemplateCreationController.swift */; };
+		__src_cc_ref_Sources/TemplateModel.swift /* TemplateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/TemplateModel.swift /* TemplateModel.swift */; };
+		__src_cc_ref_Sources/UIHandlers.swift /* UIHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/UIHandlers.swift /* UIHandlers.swift */; };
 		__src_cc_ref_Sources/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/main.swift /* main.swift */; };
+		__src_cc_ref_Tests/GitignoreIOTests/GitignoreIOTests.swift /* GitignoreIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/GitignoreIOTests/GitignoreIOTests.swift /* GitignoreIOTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E69279431DBA31A600E8566B /* PBXContainerItemProxy */ = {
+		E6E09C701DBA6F1100D3130E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_COpenSSL";
 			remoteInfo = COpenSSL;
 		};
-		E69279441DBA31A600E8566B /* PBXContainerItemProxy */ = {
+		E6E09C711DBA6F1100D3130E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PerfectThread";
 			remoteInfo = PerfectThread;
 		};
-		E69279451DBA31A600E8566B /* PBXContainerItemProxy */ = {
+		E6E09C721DBA6F1100D3130E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PerfectLib";
 			remoteInfo = PerfectLib;
 		};
-		E69279461DBA31A600E8566B /* PBXContainerItemProxy */ = {
+		E6E09C731DBA6F1100D3130E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PerfectNet";
 			remoteInfo = PerfectNet;
 		};
-		E69279471DBA31A600E8566B /* PBXContainerItemProxy */ = {
+		E6E09C741DBA6F1100D3130E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PerfectHTTP";
 			remoteInfo = PerfectHTTP;
 		};
-		E69279481DBA31A600E8566B /* PBXContainerItemProxy */ = {
+		E6E09C751DBA6F1100D3130E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_CHTTPParser";
 			remoteInfo = CHTTPParser;
 		};
-		E69279491DBA31A600E8566B /* PBXContainerItemProxy */ = {
+		E6E09C761DBA6F1100D3130E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PerfectHTTPServer";
 			remoteInfo = PerfectHTTPServer;
 		};
-		E692794A1DBA31A600E8566B /* PBXContainerItemProxy */ = {
+		E6E09C771DBA6F1100D3130E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PerfectMustache";
 			remoteInfo = PerfectMustache;
 		};
+		E6E09C781DBA6F1100D3130E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_GitignoreIO";
+			remoteInfo = GitignoreIO;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E69279501DBA412800E8566B /* CopyFiles */ = {
+		E6E09C7A1DBA6FFC00D3130E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				E69279511DBA413900E8566B /* data in CopyFiles */,
+				E6E09C7B1DBA700400D3130E /* data in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E692794B1DBA31FE00E8566B /* UIHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHandlers.swift; sourceTree = "<group>"; };
-		E692794E1DBA340800E8566B /* TemplateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateModel.swift; sourceTree = "<group>"; };
+		E6ACA2E11DBA7559002CB8BB /* Date+ExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+ExtensionsTests.swift"; sourceTree = "<group>"; };
+		E6ACA2E81DBA99C3002CB8BB /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		E6ACA2EC1DBA9DF2002CB8BB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		__PBXFileRef_GitignoreIO.xcodeproj/Configs/Project.xcconfig /* GitignoreIO.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GitignoreIO.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
 		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/COpenSSL-2.0.1/COpenSSL/a_bitstr.c" /* a_bitstr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_bitstr.c; sourceTree = "<group>"; };
@@ -1562,7 +1582,10 @@
 		__PBXFileRef_Sources/DocsHandlers.swift /* DocsHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsHandlers.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/IndexHandlers.swift /* IndexHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexHandlers.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/TemplateCreationController.swift /* TemplateCreationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateCreationController.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/TemplateModel.swift /* TemplateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateModel.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/UIHandlers.swift /* UIHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHandlers.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/GitignoreIOTests/GitignoreIOTests.swift /* GitignoreIOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitignoreIOTests.swift; sourceTree = "<group>"; };
 		__PBXFileRef_config /* config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = config; sourceTree = "<group>"; };
 		__PBXFileRef_controllers /* controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = controllers; sourceTree = "<group>"; };
 		__PBXFileRef_data /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
@@ -1576,6 +1599,7 @@
 		"_____Product_CHTTPParser" /* CHTTPParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_COpenSSL" /* COpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_GitignoreIO" /* GitignoreIO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = GitignoreIO; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_GitignoreIOTests" /* GitignoreIOTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = GitignoreIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PerfectHTTP" /* PerfectHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PerfectHTTPServer" /* PerfectHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PerfectLib" /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1616,6 +1640,22 @@
 				_LinkFileRef_CHTTPParser_via_GitignoreIO /* CHTTPParser.framework in Frameworks */,
 				_LinkFileRef_PerfectHTTPServer_via_GitignoreIO /* PerfectHTTPServer.framework in Frameworks */,
 				_LinkFileRef_PerfectMustache_via_GitignoreIO /* PerfectMustache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_GitignoreIOTests" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_PerfectLib_via_GitignoreIOTests /* PerfectLib.framework in Frameworks */,
+				_LinkFileRef_COpenSSL_via_GitignoreIOTests /* COpenSSL.framework in Frameworks */,
+				_LinkFileRef_PerfectThread_via_GitignoreIOTests /* PerfectThread.framework in Frameworks */,
+				_LinkFileRef_PerfectNet_via_GitignoreIOTests /* PerfectNet.framework in Frameworks */,
+				_LinkFileRef_PerfectHTTP_via_GitignoreIOTests /* PerfectHTTP.framework in Frameworks */,
+				_LinkFileRef_CHTTPParser_via_GitignoreIOTests /* CHTTPParser.framework in Frameworks */,
+				_LinkFileRef_PerfectHTTPServer_via_GitignoreIOTests /* PerfectHTTPServer.framework in Frameworks */,
+				_LinkFileRef_PerfectMustache_via_GitignoreIOTests /* PerfectMustache.framework in Frameworks */,
+				_LinkFileRef_GitignoreIO_via_GitignoreIOTests /* GitignoreIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1696,11 +1736,28 @@
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
+		E6ACA2EB1DBA9DF2002CB8BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6ACA2EC1DBA9DF2002CB8BB /* Settings.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		TestProducts_ /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_GitignoreIOTests" /* GitignoreIOTests.xctest */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 		"___RootGroup_" = {
 			isa = PBXGroup;
 			children = (
 				__PBXFileRef_Package.swift /* Package.swift */,
 				"_____Configs_" /* Configs */,
+				E6ACA2EB1DBA9DF2002CB8BB /* Resources */,
 				"_____Sources_" /* Sources */,
 				__PBXFileRef_config /* config */,
 				__PBXFileRef_controllers /* controllers */,
@@ -1713,6 +1770,7 @@
 				__PBXFileRef_webroot /* webroot */,
 				__PBXFileRef_wiki /* wiki */,
 				Dependencies_ /* Dependencies */,
+				"_______Tests_" /* Tests */,
 				"____Products_" /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1720,6 +1778,7 @@
 		"____Products_" /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				TestProducts_ /* Tests */,
 				"_____Product_PerfectLib" /* PerfectLib.framework */,
 				"_____Product_COpenSSL" /* COpenSSL.framework */,
 				"_____Product_PerfectThread" /* PerfectThread.framework */,
@@ -2458,11 +2517,22 @@
 				__PBXFileRef_Sources/IndexHandlers.swift /* IndexHandlers.swift */,
 				__PBXFileRef_Sources/main.swift /* main.swift */,
 				__PBXFileRef_Sources/TemplateCreationController.swift /* TemplateCreationController.swift */,
-				E692794B1DBA31FE00E8566B /* UIHandlers.swift */,
-				E692794E1DBA340800E8566B /* TemplateModel.swift */,
+				__PBXFileRef_Sources/TemplateModel.swift /* TemplateModel.swift */,
+				__PBXFileRef_Sources/UIHandlers.swift /* UIHandlers.swift */,
+				E6ACA2E81DBA99C3002CB8BB /* String+Extensions.swift */,
 			);
 			name = GitignoreIO;
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_GitignoreIOTests" /* GitignoreIOTests */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Tests/GitignoreIOTests/GitignoreIOTests.swift /* GitignoreIOTests.swift */,
+				E6ACA2E11DBA7559002CB8BB /* Date+ExtensionsTests.swift */,
+			);
+			name = GitignoreIOTests;
+			path = Tests/GitignoreIOTests;
 			sourceTree = "<group>";
 		};
 		"_______Group_PerfectHTTP" /* PerfectHTTP */ = {
@@ -2545,6 +2615,14 @@
 			path = "Packages/PerfectThread-2.0.3/Sources";
 			sourceTree = "<group>";
 		};
+		"_______Tests_" /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_GitignoreIOTests" /* GitignoreIOTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2591,7 +2669,7 @@
 			buildPhases = (
 				CompilePhase_GitignoreIO /* Sources */,
 				"___LinkPhase_GitignoreIO" /* Frameworks */,
-				E69279501DBA412800E8566B /* CopyFiles */,
+				E6E09C7A1DBA6FFC00D3130E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -2609,6 +2687,31 @@
 			productName = GitignoreIO;
 			productReference = "_____Product_GitignoreIO" /* GitignoreIO */;
 			productType = "com.apple.product-type.tool";
+		};
+		"______Target_GitignoreIOTests" /* GitignoreIOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_GitignoreIOTests" /* Build configuration list for PBXNativeTarget "GitignoreIOTests" */;
+			buildPhases = (
+				CompilePhase_GitignoreIOTests /* Sources */,
+				"___LinkPhase_GitignoreIOTests" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_PerfectLib /* PBXTargetDependency */,
+				__Dependency_COpenSSL /* PBXTargetDependency */,
+				__Dependency_PerfectThread /* PBXTargetDependency */,
+				__Dependency_PerfectNet /* PBXTargetDependency */,
+				__Dependency_PerfectHTTP /* PBXTargetDependency */,
+				__Dependency_CHTTPParser /* PBXTargetDependency */,
+				__Dependency_PerfectHTTPServer /* PBXTargetDependency */,
+				__Dependency_PerfectMustache /* PBXTargetDependency */,
+				__Dependency_GitignoreIO /* PBXTargetDependency */,
+			);
+			name = GitignoreIOTests;
+			productName = GitignoreIOTests;
+			productReference = "_____Product_GitignoreIOTests" /* GitignoreIOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		"______Target_PerfectHTTP" /* PerfectHTTP */ = {
 			isa = PBXNativeTarget;
@@ -2752,6 +2855,7 @@
 				"______Target_PerfectHTTPServer" /* PerfectHTTPServer */,
 				"______Target_PerfectMustache" /* PerfectMustache */,
 				"______Target_GitignoreIO" /* GitignoreIO */,
+				"______Target_GitignoreIOTests" /* GitignoreIOTests */,
 			);
 		};
 /* End PBXProject section */
@@ -3458,14 +3562,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				E6ACA2EA1DBA9AC2002CB8BB /* String+Extensions.swift in Sources */,
 				__src_cc_ref_Sources/APIHandlers.swift /* APIHandlers.swift in Sources */,
 				__src_cc_ref_Sources/Arguments.swift /* Arguments.swift in Sources */,
 				"__src_cc_ref_Sources/Date+Extensions.swift" /* Date+Extensions.swift in Sources */,
-				E692794D1DBA320200E8566B /* UIHandlers.swift in Sources */,
 				__src_cc_ref_Sources/DocsHandlers.swift /* DocsHandlers.swift in Sources */,
 				__src_cc_ref_Sources/IndexHandlers.swift /* IndexHandlers.swift in Sources */,
 				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
 				__src_cc_ref_Sources/TemplateCreationController.swift /* TemplateCreationController.swift in Sources */,
+				__src_cc_ref_Sources/TemplateModel.swift /* TemplateModel.swift in Sources */,
+				__src_cc_ref_Sources/UIHandlers.swift /* UIHandlers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_GitignoreIOTests /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Tests/GitignoreIOTests/GitignoreIOTests.swift /* GitignoreIOTests.swift in Sources */,
+				E6ACA2E21DBA7559002CB8BB /* Date+ExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3509,7 +3624,6 @@
 				"__src_cc_ref_Packages/PerfectLib-2.0.1/Sources/PerfectLib/PerfectError.swift" /* PerfectError.swift in Sources */,
 				"__src_cc_ref_Packages/PerfectLib-2.0.1/Sources/PerfectLib/PerfectServer.swift" /* PerfectServer.swift in Sources */,
 				"__src_cc_ref_Packages/PerfectLib-2.0.1/Sources/PerfectLib/SwiftCompatibility.swift" /* SwiftCompatibility.swift in Sources */,
-				E692794F1DBA340800E8566B /* TemplateModel.swift in Sources */,
 				"__src_cc_ref_Packages/PerfectLib-2.0.1/Sources/PerfectLib/SysProcess.swift" /* SysProcess.swift in Sources */,
 				"__src_cc_ref_Packages/PerfectLib-2.0.1/Sources/PerfectLib/Utilities.swift" /* Utilities.swift in Sources */,
 			);
@@ -3550,42 +3664,47 @@
 		__Dependency_CHTTPParser /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_CHTTPParser" /* CHTTPParser */;
-			targetProxy = E69279481DBA31A600E8566B /* PBXContainerItemProxy */;
+			targetProxy = E6E09C751DBA6F1100D3130E /* PBXContainerItemProxy */;
 		};
 		__Dependency_COpenSSL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_COpenSSL" /* COpenSSL */;
-			targetProxy = E69279431DBA31A600E8566B /* PBXContainerItemProxy */;
+			targetProxy = E6E09C701DBA6F1100D3130E /* PBXContainerItemProxy */;
+		};
+		__Dependency_GitignoreIO /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_GitignoreIO" /* GitignoreIO */;
+			targetProxy = E6E09C781DBA6F1100D3130E /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectHTTP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectHTTP" /* PerfectHTTP */;
-			targetProxy = E69279471DBA31A600E8566B /* PBXContainerItemProxy */;
+			targetProxy = E6E09C741DBA6F1100D3130E /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectHTTPServer /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectHTTPServer" /* PerfectHTTPServer */;
-			targetProxy = E69279491DBA31A600E8566B /* PBXContainerItemProxy */;
+			targetProxy = E6E09C761DBA6F1100D3130E /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectLib /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectLib" /* PerfectLib */;
-			targetProxy = E69279451DBA31A600E8566B /* PBXContainerItemProxy */;
+			targetProxy = E6E09C721DBA6F1100D3130E /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectMustache /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectMustache" /* PerfectMustache */;
-			targetProxy = E692794A1DBA31A600E8566B /* PBXContainerItemProxy */;
+			targetProxy = E6E09C771DBA6F1100D3130E /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectNet /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectNet" /* PerfectNet */;
-			targetProxy = E69279461DBA31A600E8566B /* PBXContainerItemProxy */;
+			targetProxy = E6E09C731DBA6F1100D3130E /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectThread /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectThread" /* PerfectThread */;
-			targetProxy = E69279441DBA31A600E8566B /* PBXContainerItemProxy */;
+			targetProxy = E6E09C711DBA6F1100D3130E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3596,7 +3715,7 @@
 				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
 				INFOPLIST_FILE = GitignoreIO.xcodeproj/CHTTPParser_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MODULEMAP_FILE = GitignoreIO.xcodeproj/GeneratedModuleMap/CHTTPParser/module.modulemap;
@@ -3632,8 +3751,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = (
-					"/Users/josephblau/Developer/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include",
-					"/Users/josephblau/Developer/gitignore.io/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
+					"/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include",
+					"/Users/josephblau/Developer/web/gitignore.io/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -3644,12 +3763,29 @@
 			};
 			name = Release;
 		};
+		_ReleaseConf_GitignoreIOTests /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = (
+					"/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include",
+					"/Users/josephblau/Developer/web/gitignore.io/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
+				);
+				INFOPLIST_FILE = GitignoreIO.xcodeproj/GitignoreIOTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		_ReleaseConf_PerfectHTTP /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
 				INFOPLIST_FILE = GitignoreIO.xcodeproj/PerfectHTTP_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -3667,8 +3803,8 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = (
-					"/Users/josephblau/Developer/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include",
-					"/Users/josephblau/Developer/gitignore.io/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
+					"/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include",
+					"/Users/josephblau/Developer/web/gitignore.io/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
 				);
 				INFOPLIST_FILE = GitignoreIO.xcodeproj/PerfectHTTPServer_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
@@ -3702,7 +3838,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
 				INFOPLIST_FILE = GitignoreIO.xcodeproj/PerfectMustache_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -3719,7 +3855,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
 				INFOPLIST_FILE = GitignoreIO.xcodeproj/PerfectNet_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -3753,7 +3889,7 @@
 				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
 				INFOPLIST_FILE = GitignoreIO.xcodeproj/CHTTPParser_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MODULEMAP_FILE = GitignoreIO.xcodeproj/GeneratedModuleMap/CHTTPParser/module.modulemap;
@@ -3791,8 +3927,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = (
-					"/Users/josephblau/Developer/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include",
-					"/Users/josephblau/Developer/gitignore.io/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
+					"/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include",
+					"/Users/josephblau/Developer/web/gitignore.io/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -3804,12 +3940,30 @@
 			};
 			name = Debug;
 		};
+		"___DebugConf_GitignoreIOTests" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = (
+					"/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include",
+					"/Users/josephblau/Developer/web/gitignore.io/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
+				);
+				INFOPLIST_FILE = GitignoreIO.xcodeproj/GitignoreIOTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
 		"___DebugConf_PerfectHTTP" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
 				INFOPLIST_FILE = GitignoreIO.xcodeproj/PerfectHTTP_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -3828,8 +3982,8 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = (
-					"/Users/josephblau/Developer/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include",
-					"/Users/josephblau/Developer/gitignore.io/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
+					"/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include",
+					"/Users/josephblau/Developer/web/gitignore.io/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
 				);
 				INFOPLIST_FILE = GitignoreIO.xcodeproj/PerfectHTTPServer_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
@@ -3865,7 +4019,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
 				INFOPLIST_FILE = GitignoreIO.xcodeproj/PerfectMustache_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -3883,7 +4037,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				HEADER_SEARCH_PATHS = "/Users/josephblau/Developer/web/gitignore.io/Packages/COpenSSL-2.0.1/COpenSSL/include";
 				INFOPLIST_FILE = GitignoreIO.xcodeproj/PerfectNet_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -3964,6 +4118,15 @@
 			buildConfigurations = (
 				"___DebugConf_GitignoreIO" /* Debug */,
 				_ReleaseConf_GitignoreIO /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_GitignoreIOTests" /* Build configuration list for PBXNativeTarget "GitignoreIOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_GitignoreIOTests" /* Debug */,
+				_ReleaseConf_GitignoreIOTests /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

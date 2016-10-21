@@ -10,7 +10,7 @@ import Foundation
 import PerfectLib
 
 struct TemplateCreationController {
-    static let projectRootDirectory = Dir(Bundle.main.bundlePath + "/data")
+    static let projectRootDirectory = Dir(Bundle.main.bundlePath)
     
     func parseTemplates(directory: Dir) {
         
@@ -18,7 +18,7 @@ struct TemplateCreationController {
             try directory.forEachEntry(closure: { (descriptor) in
                 if File(directory.path + descriptor).isDir {
                     print("D: \(descriptor)")
-                    parseTemplates(directory: Dir(directory.path + descriptor))
+//                    parseTemplates(directory: Dir(directory.path + descriptor))
                 } else {
                     print("F: \(descriptor)")
                 }

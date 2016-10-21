@@ -1,5 +1,5 @@
 framework module CHTTPParser {
-    umbrella "/Users/josephblau/Developer/gitignore.io/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include"
+    umbrella "/Users/josephblau/Developer/web/gitignore.io/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include"
     link framework "CHTTPParser"
     export *
 }

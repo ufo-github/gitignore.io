@@ -3,8 +3,22 @@ import PerfectHTTP
 import PerfectHTTPServer
 import PerfectMustache
 
+import Foundation
 
-TemplateCreationController().parseTemplates(directory: TemplateCreationController.projectRootDirectory)
+
+//TemplateCreationController().parseTemplates(directory: TemplateCreationController.projectRootDirectory)
+//
+//
+//let bwp = Bundle.main.bundlePath + "/Settings"
+//debugPrint(bwp)
+////let settingsBundle = Bundle.path(forResource: "Settings", ofType: "bundle", inDirectory: Bundle.main.bundlePath)
+//
+//let settingsBundle = Bundle(path: Bundle.main.bundlePath + "/Settings.bundle")
+//let groupString = NSLocalizedString("Group", tableName: "Root", bundle: settingsBundle!, value: "", comment: "Group")
+//
+//debugPrint(ls)
+
+
 
 let server = HTTPServer()
 

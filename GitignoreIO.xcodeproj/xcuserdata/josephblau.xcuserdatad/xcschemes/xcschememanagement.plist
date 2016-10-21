@@ -32,6 +32,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>______Target_GitignoreIOTests</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>______Target_PerfectHTTP</key>
 		<dict>
 			<key>primary</key>
