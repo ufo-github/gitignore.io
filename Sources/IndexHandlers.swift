@@ -17,6 +17,8 @@ struct IndexHandler: MustachePageHandler {
         let templateCount = 297
         
         var values = MustacheEvaluationContext.MapType()
+        values["description_index"] = "Create useful .gitignore files for your project by selecting from \(templateCount) Operating System, IDE, and Programming Language .gitignore templates"
+        
         values["subtitle"] = "Create useful .gitignore files for your project"
         values["source_code_title"] = "Source Code"
         values["source_code_description"] = "GitHub hosted source code for .gitignore.io"
